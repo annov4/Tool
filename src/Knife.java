@@ -4,9 +4,14 @@ class Knife extends Tool {
     public Knife(Tool tool) {
         this.tool = tool;
     }
+    public Knife() {}
 
     @Override
     void work() {
-        System.out.println("Режу");;
+        System.out.println("Режу");
+        if (tool != null) {
+            tool.work();
+        }
+
     }
 }

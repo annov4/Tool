@@ -4,10 +4,14 @@ public class Gvozdoder extends Tool {
     public Gvozdoder(Tool tool) {
         this.tool = tool;
     }
+    public Gvozdoder(){}
 
     @Override
     void work() {
-        tool.work();
         System.out.println("Убираю гвозди");
+        if (tool != null) {
+            tool.work();
+        }
+
     }
 }

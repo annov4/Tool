@@ -4,10 +4,14 @@ class Otvertka extends Tool {
     public Otvertka(Tool tool) {
         this.tool = tool;
     }
+    public Otvertka() {}
 
     @Override
     void work() {
-        tool.work();
         System.out.println("Кручу");
+        if (tool != null) {
+            tool.work();
+        }
+
     }
 }
