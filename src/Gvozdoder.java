@@ -1,17 +1,11 @@
-public class Gvozdoder extends Tool {
-    private Tool tool;
-
+public class Gvozdoder extends Work {
     public Gvozdoder(Tool tool) {
-        this.tool = tool;
+        super(tool);
     }
     public Gvozdoder(){}
-
     @Override
-    void work() {
+    public void work() {
         System.out.println("Убираю гвозди");
-        if (tool != null) {
-            tool.work();
-        }
-
+       super.work();
     }
 }

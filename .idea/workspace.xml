@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4fccb0f5-0f35-41c7-9524-77fc620bd89a" name="Changes" comment="">
+    <list default="true" id="4fccb0f5-0f35-41c7-9524-77fc620bd89a" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/Work.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Gvozdoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gvozdoder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Knife.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Knife.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Otvertka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Otvertka.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tool.java" afterDir="false" />
     </list>
@@ -68,17 +70,18 @@
       <option name="presentableId" value="Default" />
       <updated>1710362125711</updated>
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1710445714713</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710445714713</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>2</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>

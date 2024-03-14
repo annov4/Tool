@@ -1,17 +1,12 @@
-class Knife extends Tool {
-    private Tool tool;
-
+class Knife extends Work {
     public Knife(Tool tool) {
-        this.tool = tool;
+        super(tool);
     }
-    public Knife() {}
-
+    public Knife() {
+    }
     @Override
-    void work() {
+    public void work() {
         System.out.println("Режу");
-        if (tool != null) {
-            tool.work();
-        }
-
+        super.work();
     }
 }
