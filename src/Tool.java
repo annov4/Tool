@@ -1,9 +1,26 @@
-abstract class Tool implements Workable { //класс декоратор
-    public Tool() {}
+abstract class Tool implements Workable {
+    private Tool tool;
+
+    public Tool(Tool tool) {
+        this.tool = tool;
+    }
+
+    public Tool() {
+    }
+
     @Override
     public void hardWork() {
     }
-    abstract void work();
+
+    public void work() {
+        if (tool != null) {
+            hardWork();
+            tool.work();
+        } else {
+            hardWork();
+        }
+    }
 }
+
 
 

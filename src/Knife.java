@@ -1,12 +1,13 @@
-class Knife extends Work {
+class Knife extends Tool {
     public Knife(Tool tool) {
         super(tool);
     }
+
     public Knife() {
     }
+
     @Override
-    public void work() {
+    public void hardWork() {
         System.out.println("Режу");
-        super.work();
     }
 }

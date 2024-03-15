@@ -1,12 +1,13 @@
-class Otvertka extends Work {
+class Otvertka extends Tool {
     public Otvertka(Tool tool) {
         super(tool);
     }
+
     public Otvertka() {
     }
+
     @Override
-    public void work() {
+    public void hardWork() {
         System.out.println("Кручу");
-        super.work();
     }
 }
